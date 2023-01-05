@@ -11,7 +11,9 @@
 
 .Banner{
     background-image: url(/images/donation5.jpg);
+    background-size: cover;
     background-position: center;
+    opacity: 0px;
     width: 1400px;
     height: 669px;
     display: flex;
@@ -33,6 +35,138 @@
     color: white;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
+.btn-primary{
+    background-color: #FF5959;
+    width: 160px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* main :start */
+
+.main{
+    margin: 0 auto;
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+}
+
+.tk .amount{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+
+.donate-title{
+    margin-top: 130px;
+    margin-bottom: 20px;
+    color: #121212;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.donate-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 60px;
+}
+
+.tk-class{
+    border-radius: 5px;
+    color: tomato;
+    border: 3px solid tomato;
+    padding: 30px;
+}
+.om{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.line{
+    width: 765px;
+    margin: 10px auto;
+    margin-bottom: 30px;
+}
+
+.don-title{
+    color: black;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+.don-plan-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.donate-box{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 50px;
+    text-align: left;
+    justify-content: center;
+}
+
+.box{
+    border: 0px solid slateblue;
+    width: 350px;
+    height: 300px;
+    text-align: start;
+    padding: 10px;
+    border-radius: 2px;
+    align-items: center;
+}
+
+.box-image{
+    margin-top: 50px;
+}
+.box-title{
+    margin: 20px 0;
+}
+
+.box-description{
+    tab-size: 22px;
+    line-height: 1.6rem;
+}
+
+.b1{
+    background-color:#4F9DA61A;
+
+}
+
+.b2{
+    background-color: #FF59591A;
+
+}
+.b3{
+    background-color: #FFF4D6;
+    ;
+}
+/* donate plan end */
+
+
+
+
+
+
+
+
 
 
